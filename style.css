@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    background-color:  #a97e38;
+}
+
+#preview-box {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#product-image{
+    width: 100%;
+}
+
+#preview-text{
+    position: absolute;
+    left: 50%;
+    top: 35%;    
+    transform: translate(-50%,-50%);
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(42, 101, 134);
+}
+
