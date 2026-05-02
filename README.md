@@ -9,7 +9,7 @@ A live T-shirt customization web app built with pure HTML, CSS, and JavaScript.
 ##  Features
 
 - Type any text and see it appear on the T-shirt in real time
-- Choose from multiple colors — the shirt updates visually
+- Choose from multiple colors the shirt updates visually
 - Clean, minimal UI with a centered preview layout
 
 ---
@@ -24,7 +24,7 @@ A live T-shirt customization web app built with pure HTML, CSS, and JavaScript.
 
 ##  What I Tried First
 
-I started by building the basic HTML structure — a heading, a preview box with the shirt image, a text input, and a color dropdown. I linked the CSS and JS files and opened it using Live Server in VS Code.
+I started by building the basic HTML structure a heading, a preview box with the shirt image, a text input, and a color dropdown. I linked the CSS and JS files and opened it using Live Server in VS Code.
 
 For the color change feature, I first tried using CSS `hue-rotate` filters directly on the image but the colors weren't accurate because the shirt was white and had no base hue to rotate. I then tried a colored overlay div using `mix-blend-mode: multiply` which worked but colored the entire preview box as a rectangle, not just the shirt.
 
@@ -48,7 +48,7 @@ For the color change feature, I first tried using CSS `hue-rotate` filters direc
 
 - I used Claude to understand what `position: absolute` and `position: relative` actually do and why they need to work as a pair
 - When the color wasn't working, Claude explained that CSS filters on white images need `sepia()` as a base before `hue-rotate()` can shift to accurate colors
-- Claude helped me spot that I had three duplicate event listeners by asking me to share my script.js screenshot — something I had missed completely
+- Claude helped me spot that I had three duplicate event listeners by asking me to share my script.js screenshot something I had missed completely
 - I learned to use the browser console (F12) to check for errors and test `document.getElementById()` directly to verify if JS was finding my elements
 
 ---
