@@ -65,7 +65,7 @@ For the color change feature, I first tried using CSS `hue-rotate` filters direc
 
 - Why the JS `<script>` tag goes before `</body>` and not in `<head>` like CSS
 - What `transform: translate(-50%, -50%)` actually does and why all three properties (top, left, transform) are needed together for true centering
-- Why id names in HTML and JS must match character by character — even one typo silently breaks everything
+- Why id names in HTML and JS must match character by character  even one typo silently breaks everything
 - How CSS filters work on images and why white images behave differently from colored ones
 
 ---
