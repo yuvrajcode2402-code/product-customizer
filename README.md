@@ -1,4 +1,4 @@
-# 👕 Product Customizer
+#  Product Customizer
 
 A live T-shirt customization web app built with pure HTML, CSS, and JavaScript.
 
@@ -6,7 +6,7 @@ A live T-shirt customization web app built with pure HTML, CSS, and JavaScript.
 
 ---
 
-## 🎨 Features
+##  Features
 
 - Type any text and see it appear on the T-shirt in real time
 - Choose from multiple colors — the shirt updates visually
@@ -14,7 +14,7 @@ A live T-shirt customization web app built with pure HTML, CSS, and JavaScript.
 
 ---
 
-## 🛠️ Built With
+##  Built With
 
 - HTML5
 - CSS3 (position absolute, CSS filters)
@@ -22,7 +22,7 @@ A live T-shirt customization web app built with pure HTML, CSS, and JavaScript.
 
 ---
 
-## 🚀 What I Tried First
+##  What I Tried First
 
 I started by building the basic HTML structure — a heading, a preview box with the shirt image, a text input, and a color dropdown. I linked the CSS and JS files and opened it using Live Server in VS Code.
 
@@ -30,7 +30,7 @@ For the color change feature, I first tried using CSS `hue-rotate` filters direc
 
 ---
 
-## 🐛 What Broke
+##  What Broke
 
 1. **Typos in id names** — I wrote `prview-text` instead of `preview-text` in HTML, which meant JavaScript couldn't find the element at all. No error was shown, it just silently did nothing.
 
@@ -44,7 +44,7 @@ For the color change feature, I first tried using CSS `hue-rotate` filters direc
 
 ---
 
-## ✅ How I Fixed It Using AI
+##  How I Fixed It Using AI
 
 - I used Claude to understand what `position: absolute` and `position: relative` actually do and why they need to work as a pair
 - When the color wasn't working, Claude explained that CSS filters on white images need `sepia()` as a base before `hue-rotate()` can shift to accurate colors
@@ -53,7 +53,7 @@ For the color change feature, I first tried using CSS `hue-rotate` filters direc
 
 ---
 
-## 💬 3 Prompts I Used
+##  3 Prompts I Used
 
 1. *"The color is not changing when I select from dropdown, what could be wrong?"*
 2. *"The text appears below the shirt not on it, how do I make it overlay on top of the image?"*
@@ -61,7 +61,7 @@ For the color change feature, I first tried using CSS `hue-rotate` filters direc
 
 ---
 
-## 🤔 What I Did Not Understand Initially
+##  What I Did Not Understand Initially
 
 - Why the JS `<script>` tag goes before `</body>` and not in `<head>` like CSS
 - What `transform: translate(-50%, -50%)` actually does and why all three properties (top, left, transform) are needed together for true centering
@@ -70,20 +70,4 @@ For the color change feature, I first tried using CSS `hue-rotate` filters direc
 
 ---
 
-## 📁 Project Structure
 
-```
-product-customizer/
-├── index.html
-├── style.css
-├── script.js
-└── tshirt.png
-```
-
----
-
-## 🏃 How to Run Locally
-
-1. Clone the repo
-2. Open `index.html` with Live Server in VS Code
-3. That's it — no installs needed!
