@@ -2,7 +2,7 @@
 
 A live T-shirt customization web app built with pure HTML, CSS, and JavaScript.
 
-🔗 **Live Demo:** [your link here]
+🔗 **Live Demo:**  https://yuvrajcode2402-code.github.io/product-customizer/
 
 ---
 
